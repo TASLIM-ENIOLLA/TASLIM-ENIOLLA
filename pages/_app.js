@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import '/public/css/globals.css'
 
 import {useState} from 'react'
@@ -17,6 +18,9 @@ export default function App({Component, pageProps}){
 
     return (
         <GlobalContext.Provider value = {GlobalContextValue}>
+            <Head>
+                <title>Taslim Eniolla</title>
+            </Head>
             <Component {...pageProps} />
         </GlobalContext.Provider>
     )

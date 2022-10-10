@@ -74,7 +74,7 @@ function SideBar(){
                     ))
                 }
                     <div className = 'mb-4 pt-4'>
-                        <a href = './pdf/cv.pdf' download = 'Taslim Musa-Azeez CV' className = 'theme-color ms fo-s-15 d-inline-block text-capitalize theme-border px-4 py-2 rounded'>resume</a>
+                        <a title = 'Dowmload my CV' href = './pdf/cv.pdf' download = 'Taslim Musa-Azeez CV' className = 'theme-color ms fo-s-15 d-inline-block text-capitalize theme-border px-4 py-2 rounded'>resume</a>
                     </div>
                 </div>
             </div>
@@ -95,19 +95,22 @@ function SideBar(){
 function LeftContactLink(){
     return (
         <div className = 'flex-v a-i-c pt-3 px-3'>
-            <a href = 'https://github.com/TASLIM-ENIOLLA' className = 'd-block mb-4 transit'>
+            <a target = '_blank' href = 'https://github.com/TASLIM-ENIOLLA' className = 'd-block mb-4 transit'>
                 <span className = 'bi bi-github fo-s-16'></span>
             </a>
-            <a href = '' className = 'd-block mb-4 transit'>
-                <span className = 'bi bi-instagram fo-s-16'></span>
+            // <a target = '_blank' href = '' className = 'd-block mb-4 transit'>
+            //     <span className = 'bi bi-instagram fo-s-16'></span>
+            // </a>
+            <a target = '_blank' href = 'https://facebook.com/musaazeez.taslim' className = 'd-block mb-4 transit'>
+                <span className = 'bi bi-facebook fo-s-16'></span>
             </a>
-            <a href = '' className = 'd-block mb-4 transit'>
+            <a target = '_blank' href = 'https://twitter.com/@MusaAzeezDFirst' className = 'd-block mb-4 transit'>
                 <span className = 'bi bi-twitter fo-s-16'></span>
             </a>
-            <a href = '' className = 'd-block mb-4 transit'>
+            <a target = '_blank' href = '' className = 'd-block mb-4 transit'>
                 <span className = 'bi bi-linkedin fo-s-16'></span>
             </a>
-            <a href = 'mailto://taslim.eniolla@gmail.com' className = 'd-block mb-4 transit'>
+            <a target = '_blank' href = 'mailto://taslim.eniolla@gmail.com' className = 'd-block mb-4 transit'>
                 <span className = 'bi bi-at fo-s-16'></span>
             </a>
             <div className = {`${styles.vertical_line} bg-white rounded-lg`}></div>

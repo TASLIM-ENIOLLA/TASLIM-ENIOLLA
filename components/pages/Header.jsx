@@ -13,17 +13,17 @@ export default function Header(){
                             <img src = './favicon.ico' width = '45' />
                         </a>
                     </div>
-                    <div className = 'col-auto d-md-none'>
+                    <div className = 'col-auto d-lg-none'>
                         <button onClick = {() => toggle()} className = 'theme-border rounded bg-clear px-2'>
                             <span className = {`bi bi-${state ? 'x' : 'border-width'} fa-2x theme-color`}></span>
                         </button>
                     </div>
-                    <div className = 'd-none d-md-block col-auto list-links header'>{
+                    <div className = 'd-none d-lg-block col-auto list-links header'>{
                         URL.map(({name, href}, index) => (
                             <a key = {`${href}-${index}`} href = {`#${href}`} className = 'page-links mx-4 ms d-inline-block text-capitalize'>{name}</a>
                         ))
                     }
-                        <a href = './pdf/cv.pdf' download = 'Taslim Musa-Azeez CV' className = 'mx-4 theme-color ms d-inline-block text-capitalize theme-border px-4 py-2 rounded'>resume</a>
+                        <a title = 'Dowmload my CV' href = './pdf/cv.pdf' download = 'Taslim Musa-Azeez CV' className = 'mx-4 theme-color ms d-inline-block text-capitalize theme-border px-4 py-2 rounded'>resume</a>
                     </div>
                 </div>
             </div>

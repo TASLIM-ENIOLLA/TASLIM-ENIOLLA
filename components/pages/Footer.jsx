@@ -22,7 +22,8 @@ export default function Footer(){
                             </a>
                         </div>
                         <p className = 'text-center'>
-                            <span className = 'ms text-light letter-spacing-1'>Developed by Taslim Musa-Azeez</span>
+                            <span className = 'd-block ms text-light letter-spacing-1 mb-3'>Developed by Taslim Musa-Azeez &copy; {new Date().getFullYear()}</span>
+                            <span className = 'd-block ms text-muted letter-spacing-1 mb-3'>Inspired by Brittany Chiang</span>
                         </p>
                     </div>
                 </div>

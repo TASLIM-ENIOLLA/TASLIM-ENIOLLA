@@ -32,7 +32,7 @@ export default function Banner(){
                         <p><span className = 'ms theme-color fo-s-16'>Hi, my name is</span></p>
                         <div className = 'py-4'>
                             <p className = {`bold big-text letter-spacing-1 heavy ${styles.fo_s_by_width}`}>Musa-Azeez Taslim</p>
-                            <LetterByLetter className = {`bold big-text letter-spacing-1 heavy text-muted ${styles.fo_s_by_width}`} content = 'I develop websites and web applications.' />
+                            <p className = {`bold big-text letter-spacing-1 heavy text-muted ${styles.fo_s_by_width}`}>I develop websites and web applications.</p>
                         </div>
                         <p className = 'fo-s-15 text-muted col-lg-9 px-0'>I’m a software engineer specializing in developing exquisite frontend designs as well as creating secure backend APIs. Currently, I’m commited to studying Web 3.0 technology in order to create systems that leverage on the benefits of blockchain technology to add value to the society and invent more efficient processes.</p>
                         <div className = 'pt-4'>
